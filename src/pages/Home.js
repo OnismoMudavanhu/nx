@@ -88,8 +88,33 @@ export default class Home extends Component{
                         <button className="px-6 py-4 bg-gray-700 text-gray-100  font-semibold">ALL SERVICES</button>               
                     </div>
                     
-                </div>    
-
+                </div>
+                {/* OUR TECH EXPERTISE START */}
+                <div className="mt-16 bg-gray-200">
+                    <div className=" mx-4 md:mx-20">
+                        <h1 className="text-center font-semibold text-2xl uppercase text-gray-800 nxText py-10">OUR TECH EXPERTISE</h1>
+                        <div className="block md:flex  pb-16">
+                            <div className=" md:w-1/3 mx-2 my-2 bg-white">
+                                <h1 className="p-4 font-semibold">HIGH LOAD SYSTEMS</h1>
+                                <p className="p-2 ">Building robust high-load architectures and scalable applications powered by the most efficient 
+                                    technologies including Scala, Java, Python, NodeJS, and others
+                                </p>
+                            </div>
+                            <div className="md:w-1/3 mx-2 my-2 bg-white">
+                                <h1 className="p-4 font-semibold">CLOUD SOLUTIONS</h1>
+                                <p className="p-4">Building robust high-load architectures and scalable applications powered by the most efficient 
+                                    technologies including Scala, Java, Python, NodeJS, and others
+                                </p>
+                            </div>
+                            <div className="md:w-1/3 mx-2 my-2 bg-white">
+                                <h1 className="p-4 font-semibold">BUSINESS INTELLIGENCE</h1>
+                                <p className="p-4">Developing secure, scalable, and manageable solutions using a wide stack of Business
+                                 Intelligence technologies and tools to 
+                                </p>
+                            </div>                       
+                        </div>
+                    </div>  
+                </div>
 
                 <div className="h-56">
                 </div>          
