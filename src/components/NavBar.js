@@ -5,7 +5,7 @@ export  default class NavBar  extends Component{
     return(
         <div>
             {/* on large screens */}
-        <nav className="h-16 w-full  shadow-xl fixed bg-gray-200">
+        <nav className="h-16 w-full  shadow-xl fixed bg-gray-200 ">
             <ul className="flex flex-wrap justify-between mx-20">
                 {/* logo START */}
                 <li className=" ">
