@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Background from './background_image.jpg';
 import BackgroundTwo from './dedicated-development-team.jpg';
+import BackgroundThree from './95c6a985-92f6-4d71-af6c-a2de1f9bf599.jpg';
 
 var sectionStyle = {
     width: "100%",
@@ -14,6 +15,11 @@ var sectionTwo={
     backgroundImage: "url(" + BackgroundTwo + ")"
 }
 
+var sectionThree={
+    width:"100%",
+    height:"300px",
+    backgroundImage: "url(" + BackgroundThree + ")"
+}
 
 
 
@@ -167,9 +173,9 @@ export default class Home extends Component{
                 <div className="mt-10">
                     <div className="mx-4 md:mx-20">
                         <div className="flex bg-orange-500">
-                            <div className="justify-start p-1">
-                                <h1 className="text-gray-100 font-semibold pt-10 text-3xl">REPORT</h1>                             
-                                <p className="text-gray-100 font-semibold pt-4 text-3xl">Ukraine - The Country That Codes
+                            <div className="justify-start">
+                                <h1 className="text-gray-100 pt-10 text-3xl p-2">REPORT</h1>                             
+                                <p className="text-gray-100 pt-4 text-3xl px-2">Zimbabwe - The Country That Codes
                                     2019 IT Industry Report
                                 </p>
                             </div>
@@ -177,14 +183,50 @@ export default class Home extends Component{
                                 <img src="/images/report-background.png"/>
                             </div>
                         </div>
+
+                        {/* years on the market */}
+                        <div className="flex flex-wrap pt-16">
+                            <div className="w-1/4 text-center">
+                                <h1 className="font-semibold text-5xl">04</h1>
+                                <p className="text-gray-700">Years on the market</p>
+                            </div>
+                            <div className="w-1/4 text-center">
+                                <h1 className="font-semibold text-5xl"><span className="text-orange-600">+</span>331<span className="text-orange-600 text-3xl">%</span></h1>
+                                <p className="text-gray-700">Growth in 3 years</p>
+                            </div>
+                            <div className="w-1/4 text-center">
+                                <h1 className="font-semibold text-5xl">TOP 100</h1>
+                                <p className="text-gray-700">Global outsourcing company</p>
+                            </div>
+                            <div className="w-1/4 text-center">
+                                <h1 className="font-semibold text-5xl">1000<span className="text-orange-600">+</span></h1>
+                                <p className="text-gray-700">Professionals</p>
+                            </div>
+                        </div>
+                        <div className="pt-16">
+                            <h1 className="font-semibold text-3xl">ABOUT NX</h1>
+                            <p className="leading-loose w-1/2">N-X is an African provider of software development services with 1000+ expert software
+                             engineers onboard that power innovative technology businesses. Since 20014 we have formed strategic 
+                             partnerships with a variety of global industry leaders including OpenText, Novell, Lebara, Currencycloud 
+                             and over 50 other medium and large-scale businesses. With delivery centers in Ukraine, Poland, Bulgaria, 
+                             and Belarus, we deliver excellence in software engineering and deep expertise in a range of verticals including 
+                             finance, healthcare, hospitality, telecom, energy and enterprise content management helping our clients to innovate 
+                             and implement technology transformations.
+                             </p>
+                        </div>
                         
                     </div>
                 </div>
 
                 <div className="h-56">
-                </div>          
+                </div>         
                     
-                
+                <section style={ sectionThree }>
+                        <h1 className="font-bold text-3xl text-center text-orange-500 pt-16">CONNECT WITH OUR EXPERTS</h1>
+                        <div className="flex justify-center pt-10">
+                            <button className="px-20 py-4 bg-orange-500 hover:bg-gray-900 text-orange-100  font-semibold">GET IN TOUCH</button>               
+                        </div> 
+                </section>
 
                 
             </div>
