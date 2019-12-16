@@ -85,35 +85,100 @@ export default class Home extends Component{
                         </div>
                     </div>
                     <div className="pt-16 flex justify-center">
-                        <button className="px-6 py-4 bg-gray-700 text-gray-100  font-semibold">ALL SERVICES</button>               
+                        <button className="px-20 py-4 bg-gray-700 hover:bg-orange-500 text-gray-100 font-semibold">ALL SERVICES</button>               
                     </div>
                     
                 </div>
                 {/* OUR TECH EXPERTISE START */}
                 <div className="mt-16 bg-gray-200">
                     <div className=" mx-4 md:mx-20">
-                        <h1 className="text-center font-semibold text-2xl uppercase text-gray-800 nxText py-10">OUR TECH EXPERTISE</h1>
-                        <div className="block md:flex  pb-16">
-                            <div className=" md:w-1/3 mx-2 my-2 bg-white">
-                                <h1 className="p-4 font-semibold">HIGH LOAD SYSTEMS</h1>
-                                <p className="p-2 ">Building robust high-load architectures and scalable applications powered by the most efficient 
-                                    technologies including Scala, Java, Python, NodeJS, and others
-                                </p>
+                        <h1 className="text-center font-semibold text-2xl uppercase text-gray-900 py-10">OUR TECH EXPERTISE</h1>
+                        {/* 1st */}
+                        <div className="block md:flex  pb-4">
+                            <div className=" md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                                <a href="#" className="">
+                                   <h1 className="p-4 font-semibold hover:text-orange-500">HIGH LOAD SYSTEMS</h1>
+                                    <p className="p-4 ">Building robust high-load architectures and scalable applications powered by the most efficient 
+                                        technologies including Scala, Java, Python, NodeJS, and others
+                                    </p> 
+                                </a>                                                                                                
                             </div>
-                            <div className="md:w-1/3 mx-2 my-2 bg-white">
-                                <h1 className="p-4 font-semibold">CLOUD SOLUTIONS</h1>
-                                <p className="p-4">Building robust high-load architectures and scalable applications powered by the most efficient 
-                                    technologies including Scala, Java, Python, NodeJS, and others
-                                </p>
+                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                                <a href="#" className="">
+                                    <h1 className="p-4 font-semibold hover:text-orange-500">CLOUD SOLUTIONS</h1>
+                                    <p className="p-4">Building robust high-load architectures and scalable applications powered by the most efficient 
+                                        technologies including Scala, Java, Python, NodeJS, and others
+                                    </p>  
+                                </a>                                
                             </div>
-                            <div className="md:w-1/3 mx-2 my-2 bg-white">
-                                <h1 className="p-4 font-semibold">BUSINESS INTELLIGENCE</h1>
-                                <p className="p-4">Developing secure, scalable, and manageable solutions using a wide stack of Business
-                                 Intelligence technologies and tools to 
-                                </p>
+                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                                <a href="#">
+                                    <h1 className="p-4 font-semibold hover:text-orange-500">BUSINESS INTELLIGENCE</h1>
+                                    <p className="p-4">Developing secure, scalable, and manageable solutions using a wide stack of Business
+                                    Intelligence technologies and tools to 
+                                    </p>
+                                </a>                                
                             </div>                       
                         </div>
+                        {/* 2nd */}
+                        <div className="block md:flex  pb-16">
+                            <div className=" md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                                <a href="#" className="">
+                                   <h1 className="p-4 font-semibold hover:text-orange-500">MACHINE LEARNING & AI</h1>
+                                    <p className="p-4 ">Utilizing machine learning, artificial intelligence, and neural networks in the development of self-taught enterprise solutions
+                                    </p> 
+                                </a>                                                                                                
+                            </div>
+                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                                <a href="#" className="">
+                                    <h1 className="p-4 font-semibold hover:text-orange-500">DATA SCIENCE</h1>
+                                    <p className="p-4">Creating complex analytics systems to support competitive intelligence with the help of modern methods of data collection, analysis and processing
+                                    </p>  
+                                </a>                                
+                            </div>
+                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                                <a href="#">
+                                    <h1 className="p-4 font-semibold hover:text-orange-500">BLOCKCHAIN</h1>
+                                    <p className="p-4">Complex blockchain expertise including blockchain application development, consulting and operation support for blockchain-enabled solutions
+                                    </p>
+                                </a>                                
+                            </div>                       
+                        </div>
+                        <div className="flex justify-center pb-16">
+                            <button className="px-20 py-4 bg-orange-500 hover:bg-gray-700 text-orange-100  font-semibold">ALL SERVICES</button>               
+                        </div>
                     </div>  
+                </div>
+
+                {/* SUCCESS STORIES START */}
+                <div className="mt-10">
+                    <div className=" mx-4 md:mx-20">
+                        <h1 className="text-center font-semibold text-2xl uppercase text-gray-900  py-10">SUCCESS STORIES</h1>
+                        <div className="h-56">
+                            
+                        </div>
+                        <div className="flex justify-center pb-16">
+                            <button className="px-20 py-4 bg-gray-700 hover:bg-orange-500 text-orange-100  font-semibold">SHOW ALL CASES</button>               
+                        </div>                        
+                    </div>
+                </div>
+
+                {/*  */}
+                <div className="mt-10">
+                    <div className="mx-4 md:mx-20">
+                        <div className="flex bg-orange-500">
+                            <div className="justify-start p-1">
+                                <h1 className="text-gray-100 font-semibold pt-10 text-3xl">REPORT</h1>                             
+                                <p className="text-gray-100 font-semibold pt-4 text-3xl">Ukraine - The Country That Codes
+                                    2019 IT Industry Report
+                                </p>
+                            </div>
+                            <div className=" justify-end">
+                                <img src="/images/report-background.png"/>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
 
                 <div className="h-56">
