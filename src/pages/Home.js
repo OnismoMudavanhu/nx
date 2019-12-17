@@ -32,7 +32,7 @@ export default class Home extends Component{
                     <div className="pt-10 lg:pt-32 mx-4 md:mx-20">
                        <h1 className="text-2xl md:text-5xl text-gray-200 font-semibold">Trusted Software Development </h1>
                        <h1 className="text-2xl md:text-5xl text-gray-200 font-semibold">Partner Since 2014</h1>
-                       <p className=" md:w-2/3 text-gray-100 md:text-xl pt-10">N-X digital solutions is an International provider of software development outsourcing services with delivery
+                       <p className=" md:w-2/3 text-gray-100 lg:text-xl pt-10">N-X digital solutions is an International provider of software development outsourcing services with delivery
                          centres in Zimbabwe, Botswana, Zambia, and Australia and over 1000 expert software developers. We partner with technology businesses globally helping them to build successful engineering teams and create innovative software products.</p>
                     </div>
                 </section>
@@ -69,24 +69,24 @@ export default class Home extends Component{
                 <div className="pt-16 mx-4 md:mx-20">
                     <h1 className="text-center font-semibold text-2xl uppercase text-gray-800 nxText pb-10">SERVICES PROVIDED/ INDUSTRIES WE SERVE</h1>
                     <div className="flex flex-wrap justify-between ">
-                        <div className="md:w-1/3 px-2 py-2">
+                        <div className="md:w-1/2 lg:w-1/3 px-2 py-2">
                             <img src='/images/dedicated-development-team.jpg'/>
                         </div>
-                        <div className="md:w-1/3 px-2 py-2">
+                        <div className="md:w-1/2 lg:w-1/3 px-2 py-2">
                             <img src='/images/software-development.jpg'/>
                         </div>
-                        <div className="md:w-1/3 px-2 py-2">
+                        <div className="md:w-1/2 lg:w-1/3 px-2 py-2">
                             <img src='/images/mobile-development.jpg'/>
                         </div>                       
-                    </div>
-                    <div className="flex flex-wrap justify-between ">
-                        <div className="md:w-1/3 px-2 py-2">
+                    {/* </div>
+                    <div className="flex flex-wrap justify-between "> */}
+                        <div className="md:w-1/2 lg:w-1/3 px-2 py-2">
                             <img src='/images/opentext-professional-services.jpg'/>
                         </div>
-                        <div className="md:w-1/3 px-2 py-2">
+                        <div className="md:w-1/2 lg:w-1/3 px-2 py-2">
                             <img src='/images/game-development.jpg'/>
                         </div>
-                        <div className="md:w-1/3 px-2 py-2">
+                        <div className="md:w-1/2 lg:w-1/3 px-2 py-2">
                             <img src='/images/software-testing.jpg'/>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ export default class Home extends Component{
                         <h1 className="text-center font-semibold text-2xl uppercase text-gray-900 py-10">OUR TECH EXPERTISE</h1>
                         {/* 1st */}
                         <div className="block md:flex  pb-4">
-                            <div className=" md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                            <div className=" md:w-1/2 lg:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
                                 <a href="#" className="">
                                    <h1 className="p-4 font-semibold hover:text-orange-500">HIGH LOAD SYSTEMS</h1>
                                     <p className="p-4 ">Building robust high-load architectures and scalable applications powered by the most efficient 
@@ -109,7 +109,7 @@ export default class Home extends Component{
                                     </p> 
                                 </a>                                                                                                
                             </div>
-                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                            <div className="md:w-1/2 lg:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
                                 <a href="#" className="">
                                     <h1 className="p-4 font-semibold hover:text-orange-500">CLOUD SOLUTIONS</h1>
                                     <p className="p-4">Building robust high-load architectures and scalable applications powered by the most efficient 
@@ -117,7 +117,7 @@ export default class Home extends Component{
                                     </p>  
                                 </a>                                
                             </div>
-                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                            <div className="md:w-1/2 lg:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
                                 <a href="#">
                                     <h1 className="p-4 font-semibold hover:text-orange-500">BUSINESS INTELLIGENCE</h1>
                                     <p className="p-4">Developing secure, scalable, and manageable solutions using a wide stack of Business
@@ -128,21 +128,21 @@ export default class Home extends Component{
                         </div>
                         {/* 2nd */}
                         <div className="block md:flex  pb-16">
-                            <div className=" md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                            <div className=" md:w-1/2 lg:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
                                 <a href="#" className="">
                                    <h1 className="p-4 font-semibold hover:text-orange-500">MACHINE LEARNING & AI</h1>
                                     <p className="p-4 ">Utilizing machine learning, artificial intelligence, and neural networks in the development of self-taught enterprise solutions
                                     </p> 
                                 </a>                                                                                                
                             </div>
-                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                            <div className="md:w-1/2 lg:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
                                 <a href="#" className="">
                                     <h1 className="p-4 font-semibold hover:text-orange-500">DATA SCIENCE</h1>
                                     <p className="p-4">Creating complex analytics systems to support competitive intelligence with the help of modern methods of data collection, analysis and processing
                                     </p>  
                                 </a>                                
                             </div>
-                            <div className="md:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
+                            <div className="md:w-1/2 lg:w-1/3 mx-4 my-2 bg-white rounded hover:shadow-lg">
                                 <a href="#">
                                     <h1 className="p-4 font-semibold hover:text-orange-500">BLOCKCHAIN</h1>
                                     <p className="p-4">Complex blockchain expertise including blockchain application development, consulting and operation support for blockchain-enabled solutions
@@ -188,25 +188,25 @@ export default class Home extends Component{
                         {/* years on the market */}
                         <div className="flex flex-wrap pt-16">
                             <div className="w-full md:w-1/4 text-center my-2">
-                                <h1 className="font-semibold text-5xl">04</h1>
+                                <h1 className="font-semibold text-3xl lg:text-5xl">04</h1>
                                 <p className="text-gray-700">Years on the market</p>
                             </div>
                             <div className="w-full md:w-1/4 text-center my-2">
-                                <h1 className="font-semibold text-5xl"><span className="text-orange-600">+</span>331<span className="text-orange-600 text-3xl">%</span></h1>
+                                <h1 className="font-semibold text-3xl lg:text-5xl"><span className="text-orange-600">+</span>331<span className="text-orange-600 text-3xl">%</span></h1>
                                 <p className="text-gray-700">Growth in 3 years</p>
                             </div>
                             <div className="w-full md:w-1/4 text-center my-2">
-                                <h1 className="font-semibold text-5xl">TOP 100</h1>
+                                <h1 className="font-semibold text-3xl lg:text-5xl">TOP 100</h1>
                                 <p className="text-gray-700">Global outsourcing company</p>
                             </div>
                             <div className="w-full md:w-1/4 text-center my-2">
-                                <h1 className="font-semibold text-5xl">1000<span className="text-orange-600">+</span></h1>
+                                <h1 className="font-semibold text-3xl lg:text-5xl">1000<span className="text-orange-600">+</span></h1>
                                 <p className="text-gray-700">Professionals</p>
                             </div>
                         </div>
                         <div className="pt-16">
                             <h1 className="font-semibold text-3xl">ABOUT NX</h1>
-                            <p className="leading-loose md:w-1/2">N-X is an African provider of software development services with 1000+ expert software
+                            <p className="leading-loose lg:w-1/2">N-X is an African provider of software development services with 1000+ expert software
                              engineers onboard that power innovative technology businesses. Since 20014 we have formed strategic 
                              partnerships with a variety of global industry leaders including OpenText, Novell, Lebara, Currencycloud 
                              and over 50 other medium and large-scale businesses. With delivery centers in Ukraine, Poland, Bulgaria, 
