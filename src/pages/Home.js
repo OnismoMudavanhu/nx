@@ -29,7 +29,7 @@ export default class Home extends Component{
         return(
             <div>
                 <section style={ sectionStyle }>
-                    <div className="pt-32 mx-4 md:mx-20">
+                    <div className="pt-10 lg:pt-32 mx-4 md:mx-20">
                        <h1 className="text-2xl md:text-5xl text-gray-200 font-semibold">Trusted Software Development </h1>
                        <h1 className="text-2xl md:text-5xl text-gray-200 font-semibold">Partner Since 2014</h1>
                        <p className=" md:w-2/3 text-gray-100 md:text-xl pt-10">N-X digital solutions is an International provider of software development outsourcing services with delivery
@@ -171,41 +171,42 @@ export default class Home extends Component{
 
                 {/*  */}
                 <div className="mt-10">
-                    <div className="mx-4 md:mx-20">
-                        <div className="flex bg-orange-500">
-                            <div className="justify-start">
-                                <h1 className="text-gray-100 pt-10 text-3xl p-2">REPORT</h1>                             
-                                <p className="text-gray-100 pt-4 text-3xl px-2">Zimbabwe - The Country That Codes
-                                    2019 IT Industry Report
-                                </p>
-                            </div>
-                            <div className=" justify-end">
-                                <img src="/images/report-background.png"/>
-                            </div>
+                    {/* report */}
+                    <div className="flex bg-orange-500">
+                        <div className="justify-start">
+                            <h1 className="text-gray-100 pt-10 text-xl md:text-3xl p-2">REPORT</h1>                             
+                            <p className="text-gray-100 pt-4 text-xl md:text-3xl p-2">Zimbabwe - The Country That Codes
+                                2019 IT Industry Report
+                            </p>
                         </div>
+                        <div className="hidden lg:flex justify-end">
+                            <img src="/images/report-background.png"/>
+                        </div>
+                    </div>
+                    <div className="mx-4 md:mx-20">                       
 
                         {/* years on the market */}
                         <div className="flex flex-wrap pt-16">
-                            <div className="w-1/4 text-center">
+                            <div className="w-full md:w-1/4 text-center my-2">
                                 <h1 className="font-semibold text-5xl">04</h1>
                                 <p className="text-gray-700">Years on the market</p>
                             </div>
-                            <div className="w-1/4 text-center">
+                            <div className="w-full md:w-1/4 text-center my-2">
                                 <h1 className="font-semibold text-5xl"><span className="text-orange-600">+</span>331<span className="text-orange-600 text-3xl">%</span></h1>
                                 <p className="text-gray-700">Growth in 3 years</p>
                             </div>
-                            <div className="w-1/4 text-center">
+                            <div className="w-full md:w-1/4 text-center my-2">
                                 <h1 className="font-semibold text-5xl">TOP 100</h1>
                                 <p className="text-gray-700">Global outsourcing company</p>
                             </div>
-                            <div className="w-1/4 text-center">
+                            <div className="w-full md:w-1/4 text-center my-2">
                                 <h1 className="font-semibold text-5xl">1000<span className="text-orange-600">+</span></h1>
                                 <p className="text-gray-700">Professionals</p>
                             </div>
                         </div>
                         <div className="pt-16">
                             <h1 className="font-semibold text-3xl">ABOUT NX</h1>
-                            <p className="leading-loose w-1/2">N-X is an African provider of software development services with 1000+ expert software
+                            <p className="leading-loose md:w-1/2">N-X is an African provider of software development services with 1000+ expert software
                              engineers onboard that power innovative technology businesses. Since 20014 we have formed strategic 
                              partnerships with a variety of global industry leaders including OpenText, Novell, Lebara, Currencycloud 
                              and over 50 other medium and large-scale businesses. With delivery centers in Ukraine, Poland, Bulgaria, 
@@ -221,7 +222,7 @@ export default class Home extends Component{
                 <div className="h-56">
                 </div>         
                     
-                <section style={ sectionThree }>
+                <section className="hidden lg:block" style={ sectionThree }>
                         <h1 className="font-bold text-3xl text-center text-orange-500 pt-16">CONNECT WITH OUR EXPERTS</h1>
                         <div className="flex justify-center pt-10">
                             <button className="px-20 py-4 bg-orange-500 hover:bg-gray-900 text-orange-100  font-semibold">GET IN TOUCH</button>               

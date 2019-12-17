@@ -4,8 +4,22 @@ export  default class NavBar  extends Component{
     render() {
     return(
         <div>
+            {/* sm screen */}
+            {/* logo START */}
+            <div className="lg:hidden flex justify-between h-16 text-center">
+                <a href="#" className="flex  mx-4 items-center">                        
+                    <span className="text-white font-sans text-2xl font-bold nxText">N-</span>
+                    <span className="text-black font-black font-sans text-2xl">X</span>
+                    {/* <img src='/images/fa-logo-01.png' alt="FLEXI-AFRICA LOGO" /> */}
+                </a>
+                <div className="flex  mx-4 items-center">                        
+                    <span className="fa fa-bars fa-2x  mt-1 lg:hidden "></span>                    
+                </div>
+            </div>
+                {/* logo END */}
+
             {/* on large screens */}
-        <nav className="h-16 w-full  shadow-xl fixed bg-gray-200 ">
+        <nav className="h-16 w-full  shadow-xl fixed bg-gray-200 hidden lg:block">
             <ul className="flex flex-wrap justify-between mx-20">
                 {/* logo START */}
                 <li className=" ">

@@ -68,7 +68,7 @@ export default class Footer extends Component{
                                 <li><a href="#" className="hover:underline">Case Studies</a></li>
                                 <li><a href="#" className="hover:underline">Articles</a></li>
                                 
-                                <li className="pt-6"><a href="#">Call us at:</a></li>
+                                <li className="pt-6 text-gray-500"><a href="#">Call us at:</a></li>
                                 <li><a href="#" className="hover:underline">+380 322 295 767</a></li>
 
                                 <li className="pt-10"><a href="#" className="">Follow us on:</a></li>                                
@@ -85,7 +85,7 @@ export default class Footer extends Component{
                             </ul>
                         </div>
                     </div>
-                    <h1 className="pt-16">Copyright © 2016 - 2019 N-X digital solutions</h1>
+                    <h1 className="pt-16 pb-10 nxText">Copyright © 2016 - 2019 N-X digital solutions</h1>
                 </div>
                 
             </div>
