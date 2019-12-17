@@ -96,7 +96,7 @@ export default class Home extends Component{
                     
                 </div>
                 {/* OUR TECH EXPERTISE START */}
-                <div className="mt-16 bg-gray-200">
+                <div className="mt-16 bg-gray-100">
                     <div className=" mx-4 md:mx-20">
                         <h1 className="text-center font-semibold text-2xl uppercase text-gray-900 py-10">OUR TECH EXPERTISE</h1>
                         {/* 1st */}
@@ -173,7 +173,7 @@ export default class Home extends Component{
                 <div className="mt-10">
                     {/* report */}
                     <div className="flex bg-orange-500">
-                        <div className="justify-start">
+                        <div className="justify-start mx-4 md:mx-20">
                             <h1 className="text-gray-100 pt-10 text-xl md:text-3xl p-2">REPORT</h1>                             
                             <p className="text-gray-100 pt-4 text-xl md:text-3xl p-2">Zimbabwe - The Country That Codes
                                 2019 IT Industry Report

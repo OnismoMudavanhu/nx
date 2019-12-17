@@ -1,4 +1,6 @@
 import React,{Component} from 'react';
+import {Link, NavLink} from 'react-router-dom';
+
 export  default class NavBar  extends Component{
 
     render() {
@@ -23,49 +25,49 @@ export  default class NavBar  extends Component{
             <ul className="flex flex-wrap justify-between mx-20">
                 {/* logo START */}
                 <li className=" ">
-                    <a href="#" className="flex justify-center">                        
+                    <Link to="/" className="flex justify-center">                        
                         <span className="text-white font-sans text-4xl font-bold nxText">N-</span>
                         <span className="text-black font-black font-sans text-4xl">X</span>
                         {/* <img src='/images/fa-logo-01.png' alt="FLEXI-AFRICA LOGO" /> */}
-                    </a>
+                    </Link>
                 </li>
                 {/* logo END */}
 
                 {/* nav */}
                 <li className="py-4">
-                    <a href="#" className="hover:text-orange-600 flex justify-around flex-auto">
+                    <Link to="/services" className="hover:text-orange-600 flex justify-around flex-auto">
                         <div className=" font-bold text-sm uppercase"> Services</div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="py-4">
-                    <a href="#" className="hover:text-orange-600 flex justify-around flex-auto">
+                    <Link to="/expertise" className="hover:text-orange-600 flex justify-around flex-auto">
                         <div className=" font-bold text-sm uppercase"> expertise</div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="py-4">
-                    <a href="#" className="hover:text-orange-600 flex justify-around flex-auto">
+                    <Link to="/industries" className="hover:text-orange-600 flex justify-around flex-auto">
                         <div className=" font-bold text-sm uppercase"> industries</div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="py-4">
-                    <a href="#" className="hover:text-orange-600 flex justify-around flex-auto">
+                    <Link to="/technologies" className="hover:text-orange-600 flex justify-around flex-auto">
                         <div className=" font-bold text-sm uppercase"> technologies</div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="py-4 ">
-                    <a href="#" className="hover:text-orange-600 flex justify-around flex-auto">
+                    <Link to="/success-stories" className="hover:text-orange-600 flex justify-around flex-auto">
                         <div className=" font-bold text-sm uppercase"> success stories</div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="py-4 ">
-                    <a href="#" className="hover:text-orange-600 flex justify-around flex-auto">
+                    <Link to="/company" className="hover:text-orange-600 flex justify-around flex-auto">
                         <div className=" font-bold text-sm uppercase"> company</div>
-                    </a>
+                    </Link>
                 </li>
                 <li className="navb hover:bg-gray-900 px-2">
-                    <a href="#" className="py-5 text-gray-200 flex justify-around flex-auto">
+                    <Link to="/contact-us" className="py-5 text-gray-200 flex justify-around flex-auto">
                         <div className=" font-bold text-sm uppercase"> Contact us</div>
-                    </a>
+                    </Link>
                 </li>
                 {/* nav END */}
             </ul>
