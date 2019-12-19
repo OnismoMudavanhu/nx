@@ -19,6 +19,7 @@ import SuccessStories from './pages/SuccessStories';
 import Technologies from './pages/Technologies';
 
  export default function App() {
+
    return(
      
      <BrowserRouter>
