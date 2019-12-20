@@ -42,20 +42,20 @@ export default class Home extends Component{
                         <h1 className="text-center font-bold text-2xl uppercase text-gray-800">Our Clients</h1>
                         <p className="text-gray-800 text-center text-xl">From Tech leaders to telecom giants, see our clients</p>
                         <div className="flex flex-wrap justify-between mx-20">
-                            <img className="h-32" src="images/4dc8342a-903c-4592-a26c-2b2c2410ab28.png"/>
-                            <img className="h-32" src="images/d2ac9bc8-bd36-4feb-8853-0887e908c114.png"/>
-                            <img className="h-32" src="images/c054ae24-2160-4c6c-b453-a5f04326e6e7.png"/>
-                            <img className="h-32" src="images/f89ac858-96fa-46f9-ade6-7d7a178dd4f5.png"/>
-                            <img className="h-32" src="images/780c54cb-b850-45bd-8f0b-bdb49971cbeb.png"/>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/4dc8342a-903c-4592-a26c-2b2c2410ab28.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/d2ac9bc8-bd36-4feb-8853-0887e908c114.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/c054ae24-2160-4c6c-b453-a5f04326e6e7.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/f89ac858-96fa-46f9-ade6-7d7a178dd4f5.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/780c54cb-b850-45bd-8f0b-bdb49971cbeb.png"/></a>
                         </div> 
                         <hr className="mx-20"/>                   
                             {/* 2nd row */}
                         <div className="flex flex-wrap justify-between mx-20">
-                            <img className="h-32" src="images/15d77bc8-7620-4a4b-a877-97bfef559f64.png"/>
-                            <img className="h-32" src="images/opentext.png"/>
-                            <img className="h-32" src="images/c323f87b-316a-4091-8e7a-a890e123db31.png"/>
-                            <img className="h-32" src="images/80617be9-624c-4045-94eb-f679e2d8bf1d.png"/>
-                            <img className="h-32" src="images/780c54cb-b850-45bd-8f0b-bdb49971cbeb.png"/>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/15d77bc8-7620-4a4b-a877-97bfef559f64.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/opentext.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/c323f87b-316a-4091-8e7a-a890e123db31.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/80617be9-624c-4045-94eb-f679e2d8bf1d.png"/></a>
+                            <a href="#" className="hover:shadow-lg"><img className="h-32" src="images/780c54cb-b850-45bd-8f0b-bdb49971cbeb.png"/></a>
                         </div>
                         <div className="h-56">
                             
