@@ -3,7 +3,7 @@ import Background from './industries.jpg';
 
 var sectionStyle = {
     width: "100%",
-    height: "500px",
+    height: "300px",
     backgroundImage: "url(" + Background + ")"
   };
 
